@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 01</title>
+    </head>
+    <body>
+        <div>
+            <table border="1">
+                <tr>
+                    <td>Campo de seleção</td>
+                    <td>São Paulo <input type="checkbox" class="citycheck" name="city"></td>
+                    <td>Rio de Janeiro <input type="checkbox" class="citycheck" name="city"></td>
+                    <td>Belo Horizonte <input type="checkbox" class="citycheck" name="city"></td>
+                    <td>Brasília <input type="checkbox" class="citycheck" name="city"></td>
+                    <td>Manaus <input type="checkbox" class="citycheck" name="city"></td>
+                </tr>
+            </table>
+            <input type="submit" class="enviar" name="enviar">
+        </div>
+    </body>
+
+
+
+
+</html>
