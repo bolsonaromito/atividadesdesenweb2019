@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Atividade 15</title>
+        <style>
+        table { 
+            width:100%;
+            border-color: blue;
+            background-color: red;
+            
+        }
+        .A1 {
+            vertical-align:left;
+        }
+        .A2 {
+            vertical-align:bottom;
+        }
+        .A3 {
+            vertical-align:top;
+        }
+        </style>
+    </head>
+    <body>
+        <table class=table border="3px">
+            <caption>Tabela Mesclada</caption>
+            <tr>
+                <td class="A1" bgcolor="yellow" width=10%; rowspan=2>A1</td>
+                <td class="A2" width="40%" height="40px" align="center" bgcolor="white" >A2</td>
+                <td colspan="2" class="A3" width="50%" align="center" bgcolor="orange" >A3</td> 
+                
+            </tr>
+            <tr>
+                <td class="B2" colspan="2" width="40%" height="50px" align="center" bgcolor="orange">B2</td>
+                <td class="B4" rowspan="3" width="30%"  align="center" bgcolor="yellow">B4</td>
+                                  
+            </tr>
+            <tr>
+                <td colspan="3" class="C1"  width="10%" align="right"  bgcolor="orange">C1</td>        
+                
+            </tr>
+        </table>
+    </body>
+</html>
